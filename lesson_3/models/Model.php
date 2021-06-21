@@ -39,6 +39,7 @@ abstract class Model implements IModel
         var_dump($sql);
         DB::getInstance()->execute($sql); // без передачи $params
         $this->id = DB::getInstance()->lastInsertId();
+        var_dump($this);
 
         /* // вариант из разбора дз:
         $params = [];
