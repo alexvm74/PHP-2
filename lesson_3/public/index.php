@@ -14,7 +14,7 @@ $product = new Product("coffee.jpg", "Кофе", "Капучино", 75);
 //var_dump($product);
 //var_dump(get_class_methods($product));
 $product->insert();
-//$product->delete();
+$product->delete();
 
 //$user = new User();
 //var_dump($user->getOne(1));
